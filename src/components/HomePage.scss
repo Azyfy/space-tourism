@@ -1,0 +1,37 @@
+
+.HomePage {
+
+    background-image: url("../assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0B0D17;
+    height: 100vh;
+
+    h1 {
+        color: red;
+    }
+
+    div {
+
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 100%;
+
+        button {
+            box-sizing: content-box;
+            border: none;
+            border-radius: 50%;
+            background-color: #FFFF;
+            width: 150px;
+            height: 150px;
+        }
+    
+        button:hover {
+            border: 30px solid grey;
+        }
+    }
+}
