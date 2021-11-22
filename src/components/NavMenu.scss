@@ -1,0 +1,34 @@
+.NavMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    #nav {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 65%;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        
+
+        #close-icon {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+        }
+
+        nav {
+            margin-top: 100px;
+        }
+
+    }
+}
