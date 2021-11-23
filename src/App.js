@@ -7,8 +7,16 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import data from "./data.json";
 
 function App() {
+  console.log(data)
+  const destinations = data.destinations
+  const crew = data.crew
+  const technology = data.technology
+
+  console.log(destinations, crew, technology)
+
   return (
     <div className="App">
       <Router>
