@@ -3,6 +3,10 @@ import menuIcon from "../assets/shared/icon-hamburger.svg"
 import closeIcon from "../assets/shared/icon-close.svg"
 import "./NavMenu.scss"
 
+import {
+  Link
+} from "react-router-dom";
+
 function NavMenu() {
 
     const openMenu = () => {
@@ -23,10 +27,10 @@ function NavMenu() {
         <div id="nav" >
           <img id="close-icon" onClick={closeMenu} src={closeIcon} alt="close" />
           <nav>
-            <p> <span> 00 </span> HOME </p>
-            <p> <span> 01 </span> DESTINATION </p>
-            <p> <span> 02 </span> CREW </p>
-            <p> <span> 03 </span> TECHNOLOGY </p>
+            <Link to="/"> <span> 00 </span> HOME </Link>
+            <Link to="/destination"> <span> 01 </span> DESTINATION </Link>
+            <Link to="/crew"> <span> 02 </span> CREW </Link>
+            <Link to="/technology"> <span> 03 </span> TECHNOLOGY </Link>
           </nav>
         </div>
        

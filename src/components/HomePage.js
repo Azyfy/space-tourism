@@ -1,5 +1,9 @@
 import "./HomePage.scss"
 
+import {
+  Link
+} from "react-router-dom";
+
 function HomePage() {
     return (
       <div className="HomePage">
@@ -13,7 +17,7 @@ function HomePage() {
         </header>
 
         <div>
-          <button> Explore </button>
+          <Link to="/destination"> <button> Explore </button> </Link>
         </div>
 
       </div>
