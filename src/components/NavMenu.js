@@ -27,10 +27,10 @@ function NavMenu() {
         <div id="nav" >
           <img id="close-icon" onClick={closeMenu} src={closeIcon} alt="close" />
           <nav>
-            <Link to="/"> <span> 00 </span> HOME </Link>
-            <Link to="/destination"> <span> 01 </span> DESTINATION </Link>
-            <Link to="/crew"> <span> 02 </span> CREW </Link>
-            <Link to="/technology"> <span> 03 </span> TECHNOLOGY </Link>
+            <Link to="/" onClick={closeMenu} > <span> 00 </span> HOME </Link>
+            <Link to="/destination" onClick={closeMenu} > <span> 01 </span> DESTINATION </Link>
+            <Link to="/crew" onClick={closeMenu} > <span> 02 </span> CREW </Link>
+            <Link to="/technology" onClick={closeMenu} > <span> 03 </span> TECHNOLOGY </Link>
           </nav>
         </div>
        
