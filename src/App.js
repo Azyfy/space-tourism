@@ -2,6 +2,7 @@ import './App.scss';
 import HomePage from "./components/HomePage";
 import NavMenu from './components/NavMenu';
 import Destination from './components/Destination';
+import Crew from './components/Crew';
 import {
   BrowserRouter as Router,
   Routes,
@@ -23,7 +24,8 @@ function App() {
         <NavMenu />
         <Routes>
           <Route exact path="/" element={<HomePage/>} />
-          <Route exact path="/destination" element={<Destination destinations={destinations} />} />
+          <Route exact path="/destination" element={<Destination destinations={ destinations } />} />
+          <Route exact path="/crew" element={<Crew crew={ crew } />} />
         </Routes>
       </Router>
     </div>
