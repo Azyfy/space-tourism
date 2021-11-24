@@ -23,7 +23,7 @@ function App() {
         <NavMenu />
         <Routes>
           <Route exact path="/" element={<HomePage/>} />
-          <Route exact path="/destination" element={<Destination/>} />
+          <Route exact path="/destination" element={<Destination destinations={destinations} />} />
         </Routes>
       </Router>
     </div>

@@ -1,0 +1,21 @@
+.Destination {
+    background-image: url("../assets/destination/background-destination-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0B0D17;
+    height: 100vh;
+
+    img {
+        width: 50%;
+    }
+
+    .dest-nav {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .dest-descr {
+        border-bottom: 1px solid grey;
+    }
+}
