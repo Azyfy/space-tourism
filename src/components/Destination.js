@@ -28,7 +28,7 @@ function Destination({ destinations }) {
               } )}
             </nav>
               
-              <div class="dest-descr" >
+              <div className="dest-descr" >
                 <h2> { destination.name } </h2>
 
                 <p> { destination.description } </p>
