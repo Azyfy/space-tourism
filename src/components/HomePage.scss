@@ -5,16 +5,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #0B0D17;
-    height: 100vh;
+    min-height: 100vh; 
 
-    h1 {
-        color: red;
+    header {
+        padding: 70px 20px 0 20px;
     }
+
+   
 
     div {
 
         position: absolute;
-        bottom: 0;
+        bottom: -10px;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -10,10 +10,11 @@ function Technology({ technology }) {
     }
 
     return (
-      <div className="Technology">
-        <h1> <span> 03 </span> SPACE LAUNCH 101 </h1>
+      <div className="Technology" style={{ backgroundImage: "url(./assets/technology/background-technology-mobile.jpg)" }} >
 
-        <div>
+        <h5> <span className="nm-s" > 03 </span> SPACE LAUNCH 101 </h5>
+
+        <div className="tech-cont" >
             <div>
                 <img src={ tech.images.landscape } alt={tech.name} />
             </div>
@@ -33,8 +34,8 @@ function Technology({ technology }) {
 
                 <div>
                     <p> THE TERMINOLOGY... </p>
-                    <p> { tech.name } </p>
-                    <p> { tech.description } </p>
+                    <h3> { tech.name.toUpperCase() } </h3>
+                    <p className="text" > { tech.description } </p>
                 </div>
 
             </div>

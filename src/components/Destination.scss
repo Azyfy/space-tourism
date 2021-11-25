@@ -1,21 +1,42 @@
 .Destination {
-  //  background-image: url("../assets/destination/background-destination-mobile.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #0B0D17;
-    height: 100vh;
+    min-height: 100vh;
 
     img {
         width: 50%;
     }
 
-    .dest-nav {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
+    h5 {
+        padding-top: 70px;
+        padding-left: 10px;
     }
 
-    .dest-descr {
-        border-bottom: 1px solid grey;
+    .dest-cont {
+        margin: 20px 25px 0 25px;
+
+        .dest-nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+
+            div {
+                cursor: pointer;
+            }
+        }
+    
+        .dest-descr {
+            border-bottom: 1px solid grey;
+            padding-bottom: 20px;
+        }
+
+        .avg-est {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
     }
 }

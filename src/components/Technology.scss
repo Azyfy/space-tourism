@@ -1,0 +1,32 @@
+.Technology {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0B0D17;
+    min-height: 100vh;
+    padding-top: 70px;
+
+    img {
+        width: 100%;
+    }
+
+    .tech-cont {
+        margin-top: 20px;
+
+        .tech-nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 35px;
+                height: 35px;
+                border: 1px solid white;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        }
+    }
+}

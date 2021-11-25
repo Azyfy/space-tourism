@@ -3,23 +3,31 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #0B0D17;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 70px;
 
     img {
-        width: 50%;
+        height: 300px;
         border-bottom: 1px solid grey;
     }
 
-    .crew-nav {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
+    .crew-cont {
 
-        .dot-nav {
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-            background-color: grey;
+        margin-top: 20px;
+
+        .crew-nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+    
+            .dot-nav {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: grey;
+                cursor: pointer;
+            }
         }
-    }
+
+    }    
 }

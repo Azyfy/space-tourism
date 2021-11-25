@@ -12,9 +12,9 @@ function Destination({ destinations }) {
     return (
       <div className="Destination" style={{ backgroundImage: "url(./assets/destination/background-destination-mobile.jpg)" }} >
         
-        <h1> <span> 01 </span> PICK YOUR DESTINATION </h1>
+        <h5> <span class="nm-s" > 01 </span> PICK YOUR DESTINATION </h5>
 
-        <div>
+        <div className="dest-cont" >
           <img src={`${ destination.images.png }`} alt={ destination.name } />
 
           <div>
@@ -22,27 +22,27 @@ function Destination({ destinations }) {
               {destinations.map( dest => {
                 return(
                   <div key={ dest.name } onClick={ () => {pickDestination(dest.name)} } >
-                    { dest.name }
+                    { dest.name.toUpperCase() }
                   </div>
                 )
               } )}
             </nav>
               
               <div className="dest-descr" >
-                <h2> { destination.name } </h2>
+                <h2> { destination.name.toUpperCase() } </h2>
 
-                <p> { destination.description } </p>
+                <p className="text" > { destination.description } </p>
               </div>
 
-              <div>
+              <div className="avg-est" >
                 <div>
                   <p> AVG. DISTANCE </p>
-                  <p> { destination.distance } </p>
+                  <p> { destination.distance.toUpperCase() } </p>
                 </div>
 
                 <div>
                   <p> EST. TRAVEL TIME </p>
-                  <p> { destination.travel } </p>
+                  <p> { destination.travel.toUpperCase() } </p>
                 </div>
               </div>
 

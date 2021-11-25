@@ -11,9 +11,9 @@ function Crew({ crew }) {
 
     return (
       <div className="Crew" style={{ backgroundImage: "url(./assets/crew/background-crew-mobile.jpg)" }} >
-        <h1> <span> 02 </span> MEET YOUR CREW </h1>
+        <h5> <span className="nm-s" > 02 </span> MEET YOUR CREW </h5>
         
-        <div>
+        <div className="crew-cont" >
             <div>
                 <img src={member.images.png} alt={member.name} />
             </div>
@@ -29,9 +29,9 @@ function Crew({ crew }) {
                 </div>
 
                 <div>
-                    <p> { member.role } </p>
-                    <p> { member.name } </p>
-                    <p> { member.bio } </p>
+                    <p> { member.role.toUpperCase() } </p>
+                    <h3> { member.name.toUpperCase() } </h3>
+                    <p className="text" > { member.bio } </p>
                 </div>
             </div>
         </div>
