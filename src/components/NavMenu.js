@@ -1,6 +1,6 @@
-import logo from "../assets/shared/logo.svg"
-import menuIcon from "../assets/shared/icon-hamburger.svg"
-import closeIcon from "../assets/shared/icon-close.svg"
+//import logo from "../assets/shared/logo.svg"
+//import menuIcon from "../assets/shared/icon-hamburger.svg"
+//import closeIcon from "../assets/shared/icon-close.svg"
 import "./NavMenu.scss"
 
 import {
@@ -21,11 +21,11 @@ function NavMenu() {
 
     return (
       <div className="NavMenu">
-        <img id="logo" src={logo} alt="logo" />
-        <img id="menu-icon" onClick={openMenu} src={menuIcon} alt="menu" />
+        <img id="logo" src="./assets/shared/logo.svg" alt="logo" />
+        <img id="menu-icon" onClick={openMenu} src="./assets/shared/icon-hamburger.svg" alt="menu" />
 
         <div id="nav" >
-          <img id="close-icon" onClick={closeMenu} src={closeIcon} alt="close" />
+          <img id="close-icon" onClick={closeMenu} src="./assets/shared/icon-close.svg" alt="close" />
           <nav>
             <Link to="/" onClick={closeMenu} > <span> 00 </span> HOME </Link>
             <Link to="/destination" onClick={closeMenu} > <span> 01 </span> DESTINATION </Link>

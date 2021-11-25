@@ -10,7 +10,7 @@ function Crew({ crew }) {
     }
 
     return (
-      <div className="Crew">
+      <div className="Crew" style={{ backgroundImage: "url(./assets/crew/background-crew-mobile.jpg)" }} >
         <h1> <span> 02 </span> MEET YOUR CREW </h1>
         
         <div>

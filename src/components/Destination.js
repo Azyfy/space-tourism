@@ -10,7 +10,7 @@ function Destination({ destinations }) {
     }
 
     return (
-      <div className="Destination">
+      <div className="Destination" style={{ backgroundImage: "url(./assets/destination/background-destination-mobile.jpg)" }} >
         
         <h1> <span> 01 </span> PICK YOUR DESTINATION </h1>
 

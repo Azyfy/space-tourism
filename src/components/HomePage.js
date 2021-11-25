@@ -6,7 +6,7 @@ import {
 
 function HomePage() {
     return (
-      <div className="HomePage">
+      <div className="HomePage" style={{ backgroundImage: "url(./assets/home/background-home-mobile.jpg)" }} >
         
         <header>
             <p> So, you want to travel to </p>
