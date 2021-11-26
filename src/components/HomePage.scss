@@ -42,13 +42,20 @@
 
     .HomePage {
         background-image: url("http://localhost:3000/assets/home/background-home-tablet.jpg");
-        color: red;
     }
 }
 
 @media screen and (min-width: 1024px)  {
 
     .HomePage {
-        color: blue;
+        background-image: url("http://localhost:3000/assets/home/background-home-desktop.jpg");
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            position: static;
+        }
     }
 }

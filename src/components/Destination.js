@@ -17,7 +17,7 @@ function Destination({ destinations }) {
         <div className="dest-cont" >
           <img src={`${ destination.images.png }`} alt={ destination.name } />
 
-          <div>
+          <div className="dest-inside-cont" >
             <nav className="dest-nav" >
               {destinations.map( dest => {
                 return(

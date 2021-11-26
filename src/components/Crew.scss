@@ -58,6 +58,27 @@
 @media screen and (min-width: 1024px)  {
 
     .Crew {
-        color: blue;
+        background-image: url("http://localhost:3000/assets/crew/background-crew-desktop.jpg") !important;
+
+        img {
+            width: 400px;
+            height: 500px;
+            border-bottom: none;
+        }
+
+        .crew-cont {
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            flex-direction: row-reverse !important;
+            justify-self: center;
+            align-items: flex-start;
+            padding: 0 30px;
+
+            .crew-inside-cont {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
     }
 }

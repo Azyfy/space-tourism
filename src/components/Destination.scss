@@ -53,6 +53,34 @@
 @media screen and (min-width: 1024px)  {
 
     .Destination {
-        color: blue;
+        background-image: url("http://localhost:3000/assets/destination/background-destination-desktop.jpg") !important;
+        
+        img {
+            width: 550px;
+        }
+
+        .dest-cont {
+            display: flex;
+            justify-content: center;
+            padding: 0 50px;
+
+            .dest-inside-cont {
+                text-align: left;
+                padding: 0 25px;
+            }
+
+            .dest-nav {
+                display: flex;
+                justify-content: left;
+                gap: 15px;
+    
+            }
+
+            .avg-est {
+                flex-direction: row !important;
+                justify-content: left;
+            }
+
+        }
     }
 }
