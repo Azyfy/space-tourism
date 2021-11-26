@@ -33,6 +33,13 @@ function NavMenu() {
             <Link to="/technology" onClick={closeMenu} > <span> 03 </span> TECHNOLOGY </Link>
           </nav>
         </div>
+
+        <nav id="ls-nav" >
+            <Link to="/"  > <span > 00 </span> HOME </Link>
+            <Link to="/destination" > <span> 01 </span> DESTINATION </Link>
+            <Link to="/crew"  > <span> 02 </span> CREW </Link>
+            <Link to="/technology"  > <span> 03 </span> TECHNOLOGY </Link>
+          </nav>
        
       </div>
     );

@@ -1,17 +1,14 @@
 .Destination {
 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-color: #0B0D17;
     min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 50px;
 
     img {
         width: 50%;
-    }
-
-    h5 {
-        padding-top: 70px;
-        padding-left: 10px;
     }
 
     .dest-cont {
@@ -36,7 +33,26 @@
             margin-top: 20px;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 35px;
         }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .Destination {
+        background-image: url("http://localhost:3000/assets/destination/background-destination-tablet.jpg") !important;
+
+        .avg-est {
+            flex-direction: row !important;
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px)  {
+
+    .Destination {
+        color: blue;
     }
 }

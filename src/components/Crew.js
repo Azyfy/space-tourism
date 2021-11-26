@@ -17,7 +17,7 @@ function Crew({ crew }) {
             <div>
                 <img src={member.images.png} alt={member.name} />
             </div>
-            <div>
+            <div class="crew-inside-cont" >
                 <div className="crew-nav" >
                     {
                         crew.map( m => {

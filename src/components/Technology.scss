@@ -3,7 +3,7 @@
     background-size: cover;
     background-color: #0B0D17;
     min-height: 100vh;
-    padding-top: 70px;
+    padding-top: 100px;
 
     img {
         width: 100%;
@@ -28,5 +28,19 @@
                 cursor: pointer;
             }
         }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .Technology {
+        background-image: url("http://localhost:3000/assets/technology/background-technology-tablet.jpg") !important;
+    }
+}
+
+@media screen and (min-width: 1024px)  {
+
+    .Technology {
+        color: blue;
     }
 }

@@ -1,10 +1,10 @@
 .Crew {
 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-color: #0B0D17;
-    min-height: 100vh;
-    padding-top: 70px;
+    height: 100vh;
+    padding-top: 100px;
 
     img {
         height: 300px;
@@ -30,4 +30,34 @@
         }
 
     }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .Crew {
+        background-image: url("http://localhost:3000/assets/crew/background-crew-tablet.jpg") !important;
+
+        img {
+            height: 400px;
+        }
+
+        .crew-cont {
+            display: flex;
+            flex-direction: column-reverse;
+            position: absolute;
+            bottom: 0;
+
+            .crew-inside-cont {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px)  {
+
+    .Crew {
+        color: blue;
+    }
 }
