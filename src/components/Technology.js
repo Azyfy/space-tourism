@@ -16,10 +16,11 @@ function Technology({ technology }) {
 
         <div className="tech-cont" >
             <div>
-                <img src={ tech.images.landscape } alt={tech.name} />
+                <img className="img-landscape" src={ tech.images.landscape } alt={tech.name} />
+                <img className="img-portrait" src={ tech.images.portrait } alt={tech.name} />
             </div>
 
-            <div> 
+            <div className="tech-inner-cont" > 
                 <div className="tech-nav" >
                     {
                         technology.map( (t, index) => {
@@ -32,7 +33,7 @@ function Technology({ technology }) {
                     }
                 </div>
 
-                <div>
+                <div className="tech-descr" >
                     <p> THE TERMINOLOGY... </p>
                     <h3> { tech.name.toUpperCase() } </h3>
                     <p className="text" > { tech.description } </p>

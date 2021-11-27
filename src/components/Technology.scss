@@ -4,9 +4,14 @@
     background-color: #0B0D17;
     min-height: 100vh;
     padding-top: 100px;
+    padding-left: 100px;
 
     img {
         width: 100%;
+    }
+
+    .img-portrait {
+        display: none;
     }
 
     .tech-cont {
@@ -41,6 +46,27 @@
 @media screen and (min-width: 1024px)  {
 
     .Technology {
-        color: blue;
+
+        .img-landscape {
+            display: none;
+        }
+
+        .img-portrait {
+            display: block;
+        }
+
+        .tech-cont {
+            display: flex;
+            flex-direction: row-reverse;
+
+            .tech-inner-cont {
+                display: flex;
+
+                .tech-nav {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
     }
 }
