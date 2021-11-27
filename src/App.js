@@ -18,7 +18,7 @@ function App() {
   const technology = data.technology
 
   return (
-    <div className="App">
+    <div className="App font-face-bfr">
       <Router>
         <NavMenu />
         <Routes>

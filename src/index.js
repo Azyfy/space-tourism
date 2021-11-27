@@ -4,6 +4,8 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import "./font/Bellefair-Regular.ttf"
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

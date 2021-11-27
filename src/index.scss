@@ -1,6 +1,17 @@
+@font-face {
+	font-family: 'BellefairRegular';
+	src: url("./font/Bellefair-Regular.ttf") format('truetype'),
+			url("./font/bellefair-regular-webfont.woff2") format("woff2"),
+			url("./font/bellefair-regular-webfont.woff") format("woff");
+  }
+
+.font-face-bfr {
+font-family: "BellefairRegular";
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:  -apple-system, BlinkMacSystemFont, 'Bellefair','BellefairRegular', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
