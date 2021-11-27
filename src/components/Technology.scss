@@ -3,7 +3,6 @@
     background-size: 100% 100%;
     background-color: #0B0D17;
     min-height: 100vh;
-    padding-top: 100px;
 
     img {
         width: 100%;
@@ -13,8 +12,12 @@
         display: none;
     }
 
+    h5 {
+        padding-top: 100px;
+    }
+
     .tech-cont {
-        margin-top: 20px;
+        margin-top: 70px;
 
         .tech-nav {
             display: flex;
