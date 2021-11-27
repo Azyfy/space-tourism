@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: #0B0D17;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 100px;
 
     img {
@@ -44,8 +44,7 @@
         .crew-cont {
             display: flex;
             flex-direction: column-reverse;
-            position: absolute;
-            bottom: 0;
+
 
             .crew-inside-cont {
                 display: flex;
@@ -67,8 +66,6 @@
         }
 
         .crew-cont {
-            position: absolute;
-            bottom: 0;
             display: flex;
             flex-direction: row-reverse !important;
             justify-self: center;
