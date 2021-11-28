@@ -5,18 +5,20 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: #0B0D17;
-    min-height: 100vh; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 
     header {
-        padding: 100px 20px 0 20px;
+        padding: 100px 50px 0 50px;
     }
 
    
 
     div {
 
-        position: absolute;
-        bottom: -10px;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -42,6 +44,10 @@
 
     .HomePage {
         background-image: url("http://localhost:3000/assets/home/background-home-tablet.jpg");
+    
+        header {
+            padding: 100px 150px 0 150px;
+        }
     }
 }
 
@@ -53,6 +59,11 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+
+        header {
+            text-align: left;
+            padding: 0 250px;
+        }
 
         div {
             position: static;

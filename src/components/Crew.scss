@@ -9,6 +9,10 @@
         padding-top: 100px;
     }
 
+    h3 {
+        margin-bottom: 20px;
+    }
+
     img {
         height: 300px;
         border-bottom: 1px solid grey;
@@ -16,12 +20,18 @@
 
     .crew-cont {
 
+        margin-top: 50px;
 
+        .crew-inside-cont {
+            padding: 0 50px;
+        }
 
         .crew-nav {
             display: flex;
             justify-content: center;
             gap: 15px;
+            padding: 20px 0;
+
 
             div:first-child {
                 background-color:white;
@@ -51,7 +61,12 @@
         .crew-cont {
             display: flex;
             flex-direction: column-reverse;
+            padding: 0 50px;
 
+            .crew-descr {
+                min-height: 200px;
+                padding: 0 50px;
+            }
 
             .crew-inside-cont {
                 display: flex;
@@ -72,12 +87,25 @@
             border-bottom: none;
         }
 
+        h5 {
+            padding-left: 80px;
+        }
+
         .crew-cont {
             display: flex;
             flex-direction: row-reverse !important;
             justify-self: center;
-            align-items: flex-start;
+            align-items: center;
             padding: 0 30px;
+            text-align: left;
+
+            .crew-descr {
+                min-height: 250px;
+            }
+
+            .crew-nav {
+                justify-content: left;
+            }
 
             .crew-inside-cont {
                 display: flex;

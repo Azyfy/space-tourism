@@ -36,7 +36,7 @@ function Crew({ crew }) {
                     }
                 </div>
 
-                <div>
+                <div className="crew-descr" >
                     <p> { member.role.toUpperCase() } </p>
                     <h3> { member.name.toUpperCase() } </h3>
                     <p className="text" > { member.bio } </p>
