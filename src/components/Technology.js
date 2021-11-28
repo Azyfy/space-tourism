@@ -9,6 +9,17 @@ function Technology({ technology }) {
         setTech(technology.find( t => t.name === techno ) )
     }
 
+    function styleTechnologyNav(e) {
+
+        document.querySelectorAll(".nav").forEach(e => {
+            e.style.backgroundColor = "transparent"
+            e.style.color = "white"
+          })
+          e.target.style.backgroundColor = "white"
+          e.target.style.color = "black"
+
+    }
+
     return (
       <div className="Technology" style={{ backgroundImage: "url(./assets/technology/background-technology-mobile.jpg)" }} >
 
@@ -25,7 +36,7 @@ function Technology({ technology }) {
                     {
                         technology.map( (t, index) => {
                             return (
-                                <div key={t.name} className="nav" onClick={ () => { pickTech(t.name) } } >
+                                <div key={t.name} className="nav" onClick={ (e) => { pickTech(t.name); styleTechnologyNav(e) } } >
                                     { index + 1 }
                                 </div>
                             )

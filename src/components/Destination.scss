@@ -21,6 +21,11 @@
             justify-content: center;
             gap: 15px;
 
+            div:first-child {
+                color: white;
+                border-bottom: 3px solid white;
+            }
+
             div {
                 cursor: pointer;
             }

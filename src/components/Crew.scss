@@ -16,13 +16,16 @@
 
     .crew-cont {
 
-        position: absolute;
-        bottom: 0;
+
 
         .crew-nav {
             display: flex;
             justify-content: center;
             gap: 15px;
+
+            div:first-child {
+                background-color:white;
+            }
     
             .dot-nav {
                 width: 15px;

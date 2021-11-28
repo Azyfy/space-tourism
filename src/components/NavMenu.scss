@@ -9,7 +9,7 @@
     padding: 15px 20px 0 20px;
 
     #ls-nav {
-        display: none;
+        display: none;  
     }
 
     #nav {
@@ -69,12 +69,13 @@
             top: 0;
             right: 0;
             gap: 10px;
-            padding: 25px 15px;
+            padding: 0 15px;
             background-color: rgba(255, 255, 255, 0.2);
 
             a {
                 text-decoration: none;
                 color: grey;
+                padding: 20px 0;
 
                 span {
                     color: white;

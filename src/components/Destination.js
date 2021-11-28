@@ -9,6 +9,16 @@ function Destination({ destinations }) {
       setDestination(destinations.find( d => d.name === dest ) )
     }
 
+    function styleDestinationNav(e) {
+
+      document.querySelectorAll(".dest-nav-el").forEach(e => {
+        e.style.color = "grey"
+        e.style.borderBottom = "none"
+      })
+      e.target.style.color = "white"
+      e.target.style.borderBottom = "3px solid white"
+    }
+
     return (
       <div className="Destination" style={{ backgroundImage: "url(./assets/destination/background-destination-mobile.jpg)" }} >
         
@@ -21,7 +31,7 @@ function Destination({ destinations }) {
             <nav className="dest-nav" >
               {destinations.map( dest => {
                 return(
-                  <div key={ dest.name } onClick={ () => {pickDestination(dest.name)} } >
+                  <div key={ dest.name } className="dest-nav-el" onClick={ (e) => {pickDestination(dest.name); styleDestinationNav(e) } } >
                     { dest.name.toUpperCase() }
                   </div>
                 )

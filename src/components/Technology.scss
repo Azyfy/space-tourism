@@ -24,6 +24,11 @@
             justify-content: center;
             gap: 10px;
 
+            div:first-child {
+                background-color: white;
+                color: black;
+            }
+
             div {
                 display: flex;
                 justify-content: center;

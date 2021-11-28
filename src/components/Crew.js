@@ -9,6 +9,14 @@ function Crew({ crew }) {
         setMember(crew.find( m => m.name === memb ) )
     }
 
+    function styleDotNav (e) {
+        
+        document.querySelectorAll(".dot-nav").forEach(e => {
+            e.style.backgroundColor = "grey"
+          })
+          e.target.style.backgroundColor = "white"
+    }
+
     return (
       <div className="Crew" style={{ backgroundImage: "url(./assets/crew/background-crew-mobile.jpg)" }} >
         <h5> <span className="nm-s" > 02 </span> MEET YOUR CREW </h5>
@@ -22,7 +30,7 @@ function Crew({ crew }) {
                     {
                         crew.map( m => {
                             return (
-                                <div key={m.name} className="dot-nav" onClick={ () => { pickMember(m.name) } } > </div>
+                                <div key={m.name} className="dot-nav" onClick={ (e) => { pickMember(m.name); styleDotNav(e) } } > </div>
                             )
                         })
                     }

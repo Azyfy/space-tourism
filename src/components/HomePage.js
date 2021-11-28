@@ -5,6 +5,14 @@ import {
 } from "react-router-dom";
 
 function HomePage() {
+
+  function styleNav() {
+    document.querySelectorAll(".nav-tab").forEach(e => {
+      e.style.borderBottom = "none"
+    })
+    document.getElementById(`destination-nav`).style.borderBottom = "3px solid white"
+  }
+
     return (
       <div className="HomePage"  >
         
@@ -17,7 +25,7 @@ function HomePage() {
         </header>
 
         <div>
-          <Link to="/destination"> <button> EXPLORE </button> </Link>
+          <Link to="/destination" onClick={styleNav} > <button> EXPLORE </button> </Link>
         </div>
 
       </div>
