@@ -16,10 +16,10 @@ function NavMenu() {
     })
 
     if( locationPath === "/" ) {
-      document.getElementById("home-nav").style.borderBottom = "3px solid white"
+      document.getElementById("home-nav").style.borderBottom = "2px solid white"
     }
     else {
-      document.getElementById(`${locationPath.slice(1)}-nav`).style.borderBottom = "3px solid white"
+      document.getElementById(`${locationPath.slice(1)}-nav`).style.borderBottom = "2px solid white"
     }
 
   }, [locationPath])
@@ -39,13 +39,15 @@ function NavMenu() {
       document.querySelectorAll(".nav-tab").forEach(e => {
         e.style.borderBottom = "none"
       })
-      e.target.style.borderBottom = "3px solid white"
+      e.target.style.borderBottom = "2px solid white"
     }
 
     return (
       <div className="NavMenu">
         <img id="logo" src="./assets/shared/logo.svg" alt="logo" />
         <img id="menu-icon" onClick={openMenu} src="./assets/shared/icon-hamburger.svg" alt="menu" />
+
+        <span id="nav-style-line" ></span>
 
         <div id="nav" >
           <img id="close-icon" onClick={closeMenu} src="./assets/shared/icon-close.svg" alt="close" />
