@@ -36,6 +36,7 @@
     
         button:hover {
             border: 30px solid grey;
+            cursor: pointer;
         }
     }
 }
@@ -62,7 +63,7 @@
 
         header {
             text-align: left;
-            padding: 0 250px;
+            padding: 0 150px;
         }
 
         div {

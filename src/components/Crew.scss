@@ -56,6 +56,8 @@
 
         img {
             height: 400px;
+            width: auto;
+            border: none;
         }
 
         .crew-cont {
@@ -82,13 +84,13 @@
         background-image: url("http://localhost:3000/assets/crew/background-crew-desktop.jpg") !important;
 
         img {
-            width: 400px;
+            width: auto;
             height: 500px;
             border-bottom: none;
         }
 
         h5 {
-            padding-left: 80px;
+            padding-left: 150px;
         }
 
         .crew-cont {
@@ -96,7 +98,7 @@
             flex-direction: row-reverse !important;
             justify-self: center;
             align-items: center;
-            padding: 0 30px;
+            padding: 0 100px;
             text-align: left;
 
             .crew-descr {
