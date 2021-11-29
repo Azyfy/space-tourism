@@ -10,7 +10,7 @@ function HomePage() {
     document.querySelectorAll(".nav-tab").forEach(e => {
       e.style.borderBottom = "none"
     })
-    document.getElementById(`destination-nav`).style.borderBottom = "3px solid white"
+    document.getElementById(`destination-nav`).style.borderBottom = "2px solid white"
   }
 
     return (
