@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b707f4f6.chunk.css",
-    "main.js": "/static/js/main.292c91e3.chunk.js",
-    "main.js.map": "/static/js/main.292c91e3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fba2aee3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fba2aee3.js.map",
-    "static/js/2.2e97d6b8.chunk.js": "/static/js/2.2e97d6b8.chunk.js",
-    "static/js/2.2e97d6b8.chunk.js.map": "/static/js/2.2e97d6b8.chunk.js.map",
-    "static/js/3.a3832ad6.chunk.js": "/static/js/3.a3832ad6.chunk.js",
-    "static/js/3.a3832ad6.chunk.js.map": "/static/js/3.a3832ad6.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.b707f4f6.chunk.css.map": "/static/css/main.b707f4f6.chunk.css.map",
-    "static/js/2.2e97d6b8.chunk.js.LICENSE.txt": "/static/js/2.2e97d6b8.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/static/media/bellefair-regular-webfont.74ca5ce9.woff2"
+    "main.css": "/space-tourism/static/css/main.55dfbe0e.chunk.css",
+    "main.js": "/space-tourism/static/js/main.292c91e3.chunk.js",
+    "main.js.map": "/space-tourism/static/js/main.292c91e3.chunk.js.map",
+    "runtime-main.js": "/space-tourism/static/js/runtime-main.863cc4aa.js",
+    "runtime-main.js.map": "/space-tourism/static/js/runtime-main.863cc4aa.js.map",
+    "static/js/2.2e97d6b8.chunk.js": "/space-tourism/static/js/2.2e97d6b8.chunk.js",
+    "static/js/2.2e97d6b8.chunk.js.map": "/space-tourism/static/js/2.2e97d6b8.chunk.js.map",
+    "static/js/3.a3832ad6.chunk.js": "/space-tourism/static/js/3.a3832ad6.chunk.js",
+    "static/js/3.a3832ad6.chunk.js.map": "/space-tourism/static/js/3.a3832ad6.chunk.js.map",
+    "index.html": "/space-tourism/index.html",
+    "static/css/main.55dfbe0e.chunk.css.map": "/space-tourism/static/css/main.55dfbe0e.chunk.css.map",
+    "static/js/2.2e97d6b8.chunk.js.LICENSE.txt": "/space-tourism/static/js/2.2e97d6b8.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/space-tourism/static/media/bellefair-regular-webfont.74ca5ce9.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.fba2aee3.js",
+    "static/js/runtime-main.863cc4aa.js",
     "static/js/2.2e97d6b8.chunk.js",
-    "static/css/main.b707f4f6.chunk.css",
+    "static/css/main.55dfbe0e.chunk.css",
     "static/js/main.292c91e3.chunk.js"
   ]
 }
