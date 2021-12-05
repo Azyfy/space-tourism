@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/space-tourism/static/css/main.d3372bc8.chunk.css",
-    "main.js": "/space-tourism/static/js/main.2b94a2e3.chunk.js",
-    "main.js.map": "/space-tourism/static/js/main.2b94a2e3.chunk.js.map",
+    "main.css": "/space-tourism/static/css/main.478bb2b3.chunk.css",
+    "main.js": "/space-tourism/static/js/main.b33e924f.chunk.js",
+    "main.js.map": "/space-tourism/static/js/main.b33e924f.chunk.js.map",
     "runtime-main.js": "/space-tourism/static/js/runtime-main.863cc4aa.js",
     "runtime-main.js.map": "/space-tourism/static/js/runtime-main.863cc4aa.js.map",
     "static/js/2.2e97d6b8.chunk.js": "/space-tourism/static/js/2.2e97d6b8.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.a3832ad6.chunk.js": "/space-tourism/static/js/3.a3832ad6.chunk.js",
     "static/js/3.a3832ad6.chunk.js.map": "/space-tourism/static/js/3.a3832ad6.chunk.js.map",
     "index.html": "/space-tourism/index.html",
-    "static/css/main.d3372bc8.chunk.css.map": "/space-tourism/static/css/main.d3372bc8.chunk.css.map",
+    "static/css/main.478bb2b3.chunk.css.map": "/space-tourism/static/css/main.478bb2b3.chunk.css.map",
     "static/js/2.2e97d6b8.chunk.js.LICENSE.txt": "/space-tourism/static/js/2.2e97d6b8.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/space-tourism/static/media/bellefair-regular-webfont.74ca5ce9.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.863cc4aa.js",
     "static/js/2.2e97d6b8.chunk.js",
-    "static/css/main.d3372bc8.chunk.css",
-    "static/js/main.2b94a2e3.chunk.js"
+    "static/css/main.478bb2b3.chunk.css",
+    "static/js/main.b33e924f.chunk.js"
   ]
 }
