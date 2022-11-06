@@ -3,7 +3,7 @@
 This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
 
 ##### Links
-- [Live](https://azzryel.github.io/space-tourism/)
+- [Live](https://azyfy.github.io/space-tourism/)
 
 ##### Tools
 
